@@ -1,0 +1,24 @@
+{
+    "todo": [
+    {
+        "description": "Rédiger l'examen final d'INF2015",
+        "date": "2012-11-19",
+        "done": false
+    },
+    {
+        "description": "Publier les notes de l'intra",
+        "date": "2012-11-19",
+        "done": true
+    },
+    {
+        "description": "Installer un antivirus",
+        "date": "2012-11-18",
+        "done": false
+    },
+    {
+        "description": "Monter un cours sur la sécurité pour INF4375",
+        "date": "2012-11-20",
+        "done": false
+    }
+    ]
+}
