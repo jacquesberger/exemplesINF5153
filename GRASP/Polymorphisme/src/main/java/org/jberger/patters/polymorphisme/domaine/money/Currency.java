@@ -16,9 +16,9 @@
 package org.jberger.patters.polymorphisme.domaine.money;
 
 public class Currency {
-    int pennies;
+    int pennies = 0;
     
-    static Currency parseFromString(String in) {
+    static public Currency parseFromString(String in) {
         Currency result = new Currency();
         
         String[] parts = in.split(",");
@@ -38,5 +38,10 @@ public class Currency {
         Currency result = new Currency();
         result.pennies = (int) Math.round(this.pennies * rate);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%d,%02d", pennies / 100, pennies % 100);
     }
 }
