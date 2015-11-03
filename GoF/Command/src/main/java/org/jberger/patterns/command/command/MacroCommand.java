@@ -17,7 +17,7 @@ package org.jberger.patterns.command.command;
 
 import java.util.ArrayList;
 
-public class MacroCommand {
+public class MacroCommand implements Command {
     private final ArrayList<Command> list;
     
     public MacroCommand() {
@@ -28,10 +28,17 @@ public class MacroCommand {
         list.add(command);
     }
     
+    @Override
     public void execute() {
         for (Command each : list) {
             each.execute();
         }
-        list.clear();
+    }
+
+    @Override
+    public void unexecute() {
+        for (Command each : list) {
+            each.unexecute();
+        }
     }
 }
