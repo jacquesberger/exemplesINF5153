@@ -1,0 +1,37 @@
+/* Copyright 2015 Jacques Berger
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+package org.jberger.patterns.adapter.main;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import org.jberger.patterns.adapter.adapter.Exportable;
+import org.jberger.patterns.adapter.adapter.PersonAdapter;
+import org.jberger.patterns.adapter.adapter.PersonAdapterComposition;
+import org.jberger.patterns.adapter.domain.Person;
+
+public class Main {
+    public static void main(String[] args) throws ParseException {
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        
+        Exportable person = new PersonAdapter("Jacques", "Berger", 1, df.parse("1964-12-01"));
+        System.out.println(person.asText());
+        
+        Person realPerson = new Person("Jacques", "Berger", 1, df.parse("1984-12-01"));
+        Exportable person2 = new PersonAdapterComposition(realPerson);
+        System.out.println(person2.asText());
+    }
+}
