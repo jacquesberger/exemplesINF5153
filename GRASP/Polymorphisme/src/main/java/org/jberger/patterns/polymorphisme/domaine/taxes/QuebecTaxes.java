@@ -15,7 +15,7 @@
 
 package org.jberger.patterns.polymorphisme.domaine.taxes;
 
-import org.jberger.patters.polymorphisme.domaine.money.Currency;
+import org.jberger.patterns.polymorphisme.domaine.money.Currency;
 
 public class QuebecTaxes implements SalesTaxes {
     private static final double CANADA_RATE = 0.05;

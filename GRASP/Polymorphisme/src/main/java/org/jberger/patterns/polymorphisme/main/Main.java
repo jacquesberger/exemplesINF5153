@@ -19,7 +19,7 @@ import org.jberger.patterns.polymorphisme.domaine.taxes.QuebecTaxes;
 import org.jberger.patterns.polymorphisme.domaine.taxes.SalesTaxes;
 import org.jberger.patterns.polymorphisme.domaine.taxes.TaxTotals;
 import org.jberger.patterns.polymorphisme.domaine.taxes.TerritoriesTaxes;
-import org.jberger.patters.polymorphisme.domaine.money.Currency;
+import org.jberger.patterns.polymorphisme.domaine.money.Currency;
 
 public class Main {
     

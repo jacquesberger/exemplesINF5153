@@ -13,7 +13,7 @@
    limitations under the License.
 */
 
-package org.jberger.patters.polymorphisme.domaine.money;
+package org.jberger.patterns.polymorphisme.domaine.money;
 
 public class Currency {
     int pennies = 0;
