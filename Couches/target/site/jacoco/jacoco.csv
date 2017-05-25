@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-TodoList,org.jberger.todolist.data,InvalidJsonException,0,4,0,0,0,2,0,1,0,1
-TodoList,org.jberger.todolist.data,JsonDocumentMapper,0,55,0,2,0,15,0,3,0,2
-TodoList,org.jberger.todolist.domain,TodoList,0,47,0,6,0,11,0,7,0,4
-TodoList,org.jberger.todolist.domain,Task,18,56,11,7,5,15,9,5,0,5
-TodoList,org.jberger.todolist.main,App,47,0,2,0,8,0,3,0,2,0
-TodoList,org.jberger.todolist.main,FileReader,31,0,0,0,6,0,2,0,2,0
