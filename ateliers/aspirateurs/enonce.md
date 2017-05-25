@@ -42,6 +42,10 @@ aspirateurs ne seront pas vidées par l'unité centrale.
 Lorsque le responsable de l'entretien reçoit le SMS, il vide la poubelle de
 l'unité centrale. À ce moment, le nettoyage de la pièce peut reprendre.
 
+Si un aspirateur est bloqué et ne parvient plus à avancer ou à communiquer avec
+l'unité centrale, alors l'unité centrale enverra un SMS au responsable de
+l'entretien pour l'aviser de la situation.
+
 Après chaque nettoyage complet de la pièce, des statistiques sont envoyées à une
 application web du fabricant par Internet.
 
