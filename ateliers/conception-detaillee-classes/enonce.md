@@ -2,7 +2,7 @@ Conception détaillée d'un projet existant
 =========================================
 
 Afin de se familiariser avec les diagrammes de classes de conception détaillée,
-le présent atelier vous propose d'étudier la conception d'un projet existante et
+le présent atelier vous propose d'étudier la conception d'un projet existant et
 d'en dresser un diagramme de classes représentant la conception détaillée du
 projet.
 
