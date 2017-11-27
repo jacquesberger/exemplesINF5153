@@ -22,3 +22,11 @@
 /GoF/Proxy/target/
 *.swp
 .DS_Store
+/FileTransferExample/FileTransferServer/dist/
+/FileTransferExample/FileTransferServer/build/
+/FileTransferExample/FileTransferServer/nbproject/private/private.xml
+/FileTransferExample/FileTransferClient/dist/
+/FileTransferExample/FileTransferClient/build/
+/FileTransferExample/FileTransferClient/nbproject/private/private.xml
+/XmlRpcExample/XmlRpcClient/target/
+/XmlRpcExample/XmlRpcServer/target/
