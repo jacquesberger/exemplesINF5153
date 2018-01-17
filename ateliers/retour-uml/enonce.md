@@ -45,3 +45,7 @@ Exercices
 3. Modélisez, à l'aide d'un diagramme de séquence système (tel que vu en
    INF5151), l'interaction entre un étudiant et son portail étudiant pour
    s'inscrire à un cours à un trimestre donné.
+
+4. Modélisez un diagramme de cas d'utilisation illustrant les fonctionnalités
+   que vous croyez nécessaire pour un système de gestion de dossiers
+   vétérinaires comme indiqué à l'exercice #2.
