@@ -13,8 +13,20 @@ Objectifs
 * Réfléchir sur la conception architecturale en appliquant le modèle en couches.
 * S'habituer à travailler dans du code écrit par quelqu'un d'autre.
 
-Exercice
---------
+Exercices
+---------
+
+Les packages `generated.*` peuvent être omis de votre analyse car il s'agit
+de code généré par [SableCC](http://www.sablecc.org/).
+
+Si vous n'avez pas le temps de tout faire, limitez votre étude à 3 packages du
+logiciel.
+
+Pour chaque package du logiciel :
+1. tentez d'identifier le thème du package;
+2. essayez de trouver dans quelle couche le package se situe;
+3. en regardant les classes contenues dans le package, confirmez votre
+   hypothèse.
 
 Pour chaque classe du logiciel :
 1. tentez d'identifier la responsabilité de la classe;
@@ -28,6 +40,3 @@ Prenez le modèle en couches à 5 couches :
 * Domaine
 * Services techniques
 * Fondation
-
-Les packages `generated.*` peuvent être omis de votre analyse car il s'agit
-de code généré par [SableCC](http://www.sablecc.org/).
