@@ -18,7 +18,8 @@ Exercice
 
 1. À partir du code du projet, dressez la liste de toutes les violations aux
    patrons de conception SOLID que vous voyez. Pour chaque violation, proposez
-   une façon de l'améliorer.
+   une façon de l'améliorer. Commencez par les packages `files`, `domain`,
+   `output` et `transformers` car ils sont plus faciles à comprendre.
 
    Les packages `generated.*` peuvent être omis de votre analyse car il s'agit
    de code généré par [SableCC](http://www.sablecc.org/).
