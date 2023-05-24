@@ -1,29 +1,18 @@
 Révision sur UML
 ================
 
-Afin de se familiariser avec le logiciel Visual Paradigm, nous allons faire
+Afin de se familiariser avec les diagrammes, nous allons faire
 quelques exercices de révision sur la notation UML.
 
 Objectifs
 ---------
 
-* Manipuler Visual Paradigm.
 * Manipuler la notation UML.
 
 Exercices
 ---------
 
-1. Modélisez, à l'aide d'un diagramme d'états, les différents états possibles
-   d'un processus de réparation d'un vélo :
-   * brisé;
-   * en réparation;
-   * fonctionnel;
-   * en évaluation;
-   * retourné à son propriétaire.
-   
-   N'oubliez pas d'indiquer les transitions entre les états.
-
-2. Modélisez, à l'aide d'un diagramme de classes, le domaine d'un dossier
+1. Modélisez, à l'aide d'un diagramme de classes, le domaine d'un dossier
    d'animal chez un vétérinaire. Le diagramme doit contenir les classes
    nécessaires pour les fonctionnalités suivantes :
    * conserver les informations générales sur l'animal;
@@ -42,10 +31,10 @@ Exercices
    Placez tous les attributs que vous jugez utiles pour réaliser ces
    fonctionnalités.
 
-3. Modélisez, à l'aide d'un diagramme de séquence système (tel que vu en
+2. Modélisez, à l'aide d'un diagramme de séquence système (tel que vu en
    INF5151), l'interaction entre un étudiant et son portail étudiant pour
    s'inscrire à un cours à un trimestre donné.
 
-4. Modélisez un diagramme de cas d'utilisation illustrant les fonctionnalités
+3. Modélisez un diagramme de cas d'utilisation illustrant les fonctionnalités
    que vous croyez nécessaire pour un système de gestion de dossiers
-   vétérinaires comme indiqué à l'exercice #2.
+   vétérinaires comme indiqué à l'exercice #1.
